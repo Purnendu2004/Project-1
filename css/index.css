@@ -10,6 +10,18 @@
     
 }
 
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
 /* css variable */
 :root{
     --navbar-height :59px;
@@ -127,6 +139,7 @@ left: 0px;
 
 
 
+
 /* .center{
 
 } */
@@ -187,7 +200,7 @@ position: relative;
 /* content section  */
 #contact{
     position: relative;
-    background-image: url('../dddddd.jpg');
+    background-image: url('../contact.avif');
 background-size: cover;
 /* padding: 10px; */
 margin-top: 20px;
@@ -243,3 +256,20 @@ footer{
 footer ::before{
     bottom: 0px;
 }
+.button{
+    background-color: rgb(221, 11, 78);
+font-size: 1.5rem;
+border-radius: 10px;
+padding: 8px 19px;
+position: relative;
+left:1120px ;
+margin-bottom: 100px;
+
+cursor: pointer;
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
