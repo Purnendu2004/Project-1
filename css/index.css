@@ -29,9 +29,9 @@ html{
 #navebar{
     display: flex;
     align-items: center;
-    position: absolute;
+    position: sticky;
     /* position: relative; */
-    /* top: 0px; */
+    top: 0px;
 }
 #navebar::before{
     content: "";
