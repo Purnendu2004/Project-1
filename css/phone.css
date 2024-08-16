@@ -1,0 +1,51 @@
+/* navbar */
+*::before{
+    left: 0px;
+    bottom: 0px;
+}
+#navebar{
+    flex-direction: column;
+}
+
+#navebar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    
+}
+
+/* home section  */
+#home{
+    height: 544px;
+    padding: 26px 16px;
+}
+#home p{
+    font-size: 13px;
+}
+
+
+/* services section  */
+#services{
+    flex-direction: column;
+}
+
+#services .box img {
+    height: 131px;}
+
+/* clints */
+#clints{
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* overflow: hidden; */
+}
+#clints img{
+    width: 91px;
+    padding: 10px;
+}
+
+.h-primary{
+    font-size: 26px;
+    padding-top: 79px;
+}
+img{
+   border-radius: 20px;
+}
